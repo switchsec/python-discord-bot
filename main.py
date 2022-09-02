@@ -17,8 +17,8 @@ async def on_ready():
     await Bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='TabPlusDev & Ocx Security Systems'))
     print("---------------")
     print("Ocx Security")
-    print("TabPlusDev")
-    print("Asheap // Ashware")#Emeğe saygı için lütfen değiştirmeyiniz
+    print("Switch Space")
+    print("Ashwai")#Emeğe saygı için lütfen değiştirmeyiniz
     print("---------------")
     print("Bot Aktif !")
     user = Bot.get_user(539696174190559232)
@@ -162,7 +162,7 @@ async def fetchServerInfo(context):
 async def on_message(ctx):#Developer SwitchSec
 #Developer SwitchSec
 
-    aktivite = activity=discord.Activity(type=discord.ActivityType.watching, name='TabPlusDev & Ocx Security Systems')
+    aktivite = activity=discord.Activity(type=discord.ActivityType.watching, name='Switch Space & Ocx Security Systems')
     await ctx.send(f'{aktivite}')#Developer SwitchSec
 
 
