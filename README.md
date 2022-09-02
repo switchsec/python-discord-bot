@@ -5,6 +5,6 @@ Emeğe saygı
 
 İLETİŞİM 
 --------
-#İNSTAGRAM : _ahmetonlinee
+#İNSTAGRAM : ahmeetkubas / switchcoder
 #Github : switchsec
-#Discord : https://discord.gg/mhdayyZT
+#Discord : https://discord.gg/yrJETh2VJp
