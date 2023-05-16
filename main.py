@@ -10,7 +10,7 @@ Bot.remove_command('help')
 #Developer SwitchSec
 
 @Bot.event
-#Burayı ellemeyin yoksa bot bozulur
+#Bot başladığında olacak olaylar 
 async def on_ready():
     print("Ben Hazırım!")
     activity = discord.Activity(type=discord.ActivityType.watching, name="TabPlusDev & Ocx Security Systems")
@@ -48,7 +48,7 @@ async def on_member_remove(member): #Sunucudan üye ayrıldıysa
 badwords = ['yarrak', 'amk','amina','amınakoyum','amına','amık','yarak','göt','napim','awk','piç','urxbu','çocu','çocuğu','ananı sikerim','sik','sikerim']
 @Bot.event
 async def on_message(message):
-   for i in badwords: # Go through the list of bad words;
+   for i in badwords: #Badwords eğer döngünün içerisindeyse;
        
         if i in message.content:
             await message.delete()
@@ -59,7 +59,7 @@ async def on_message(message):
 
 @Bot.event
 async def on_profanity(message, word):
-   channel = Bot.get_channel(839869309480337518) # for me it's bot.get_channel(817421787289485322)
+   channel = Bot.get_channel(839869309480337518) # log kanal idsi 
    embed = discord.Embed(title="Profanity Alert!",description=f"{message.author.name} just said ||{word}||", color=discord.Color.blurple()) # Let's make an embed!
    await channel.send(embed=embed)
 #Developer SwitchSec
@@ -74,12 +74,12 @@ async def tabplusdev(ctx):
     await ctx.send("En İyisi!")#Eğer tabplusdev yazıldıysa
 @Bot.command()
 async def kurucu(ctx):
-    await ctx.send("Switch Sec \n Github : switchsec \n İnstagram : _ahmetonlinee")#Emeğe saygı için lütfen ellemeyiniz
+    await ctx.send("Switch Sec \n Github : switchsec \n İnstagram : ahmeetkubas")#kurucu yazılırsa
     #Emeğe saygı#Developer SwitchSec
 
 @Bot.command(name = 'prefix')
 async def on_message(ctx):
-    prefix = "ocx!"#Prefix ayarlama
+    prefix = "ocx!" #Prefix belirleme, eğer prefix denilirse
     await ctx.send(f'İşte prefixim || {prefix} ||')
     
 @Bot.command(name = 'chat-bot')#Napim ve sanane engel
@@ -89,11 +89,11 @@ async def on_message(ctx):
     for commandsnapim in napimEngel :#Developer SwitchSec
 
         if commandsnapim in message.content:
-            await ctx.send("Kardeş burdan bir vurarsam ölersin ")
+            await ctx.send("Çocuksu tavırları bir köşeye bırak evlat ")
     for commandsanane in sananeEngel : 
         if commandsanane in message.content:#Developer SwitchSec
 
-            await ctx.send("Hıııı saman ye saman ye")
+            await ctx.send("Anlıyorum...")
     
 
     
