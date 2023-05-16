@@ -5,6 +5,5 @@ Emeğe saygı
 
 İLETİŞİM 
 --------
-#İNSTAGRAM : ahmeetkubas / switchcoder
+#İNSTAGRAM : ahmeetkubas / tridyash
 #Github : switchsec
-#Discord : https://discord.gg/yrJETh2VJp
